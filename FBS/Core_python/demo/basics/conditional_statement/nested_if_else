@@ -1,0 +1,13 @@
+gender = input('enter gender(F/M):')
+age = int(input('enter age:'))
+
+if(gender =='M'):
+    if (age >=21):
+        print('boy is eligible for marriage')
+    else:
+        print('pehle kama lo.') 
+else:
+    if(age >= 18):
+        print('girl is eligible for marriage.')  
+    else:
+        print('pehle padhai karlo.') 

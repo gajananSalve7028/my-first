@@ -1,0 +1,25 @@
+#syntax
+
+#for variable in iterable
+    #block of code 
+
+
+#li=[10,20,30,40]
+
+#for element in li:
+    #print(element)
+
+
+n=int(input("enter a number :"))
+
+for multiplication in range (n,n*10+1,-n):
+    print(multiplication)
+
+
+
+#print multiplication table in reverse
+n=int(input("enter a number :"))
+
+for multiplication in range (n*10,n-1,-n):
+    print(multiplication)
+

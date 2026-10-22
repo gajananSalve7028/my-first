@@ -1,0 +1,30 @@
+#syntax:
+#while(condition):
+    #block of code 
+
+
+#when condition is true till then block of code execute
+#and when condition becomes false the block of code will stop execute 
+#if the block of code does'nt have false condition then loop will run in infinite number of times 
+
+
+#infinite 
+#variable dependency for finite stage:
+#1. variable initilization 
+#2. variable used in condition 
+#3. variable value should change 
+
+
+# i =0
+# while(i<=20):
+#     print(i)
+#     i+=1
+
+
+#w.a.p to print multiplication table
+i=0
+num=int(input("enter the number :"))
+while(i<=10):
+      multiplication=num*i
+      print(f"{num}* {i} ={multiplication}")  
+      i+=1

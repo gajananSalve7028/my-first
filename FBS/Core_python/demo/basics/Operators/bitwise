@@ -1,0 +1,11 @@
+#binary operators always works on binary values
+#in bitwise an to get output 1 if both needs 1 otherwise you get output 0
+
+#& operator
+print(10&12)
+
+#OR
+print(36|14)
+
+#X0r
+print(16^21)

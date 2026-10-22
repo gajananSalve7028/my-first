@@ -1,0 +1,81 @@
+#wap to prit no from 1 to 10 by using recursion
+
+# def print_numbers(n):
+#     if n == 11:
+#         print(n)
+#         print_numbers(n + 1)
+
+# print_numbers(1)
+
+
+#wap to check no is palindrome or not 
+
+# num=int(input("enter a number:-"))
+
+# temp=num
+# rev=0
+
+# while num>0:
+#     digit=num%10
+#     rev=rev*10+digit
+#     num=num//10
+
+# if temp==rev:
+#     print("number is palindrome")
+# else:
+#     print("number is not palindrome")
+
+
+
+
+#wap to check no  is palindrome using recursion or not 
+
+# def palindrome(num, rev=0):
+#     if num == 0:
+#         return rev
+
+#     digit = num % 10
+#     rev = rev * 10 + digit
+
+#     return palindrome(num // 10, rev)
+
+
+# num = int(input("Enter a number: "))
+
+# if num == palindrome(num):
+#     print("Number is Palindrome")
+# else:
+#     print("Number is not Palindrome")
+
+
+
+# import calendar 
+
+# print(calendar.calendar(2026))
+
+#####odd number from list
+# li = [3,9,70,14,1,2,6,17]
+
+#for i in li:
+ #   if i % 2 != 0:
+  #      print(i)
+
+#####alternate odd number from given list
+
+# li = [3,9,70,14,1,2,6,17]
+
+# odd = []
+# for i in li:
+#     if i % 2!=0:
+#         odd.append(i)
+# print(odd[::2])
+
+
+#####find common element from 2 list
+
+li1 = [3,9,70,14,1,2,6,17]
+li2 = [9,70,6,17]
+
+for i in li1:
+    if i in li2:
+        print(i)

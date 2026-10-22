@@ -1,0 +1,10 @@
+#1. to neglet positional parameter concept
+#2. asign value to parameter to function call
+#3. name of parameter in function call and function definition should be same
+#4. flow from rignt to left  
+
+def emp(id,name,salary,department):
+    return f'ID:{id}\nNAME:{name}\nSALARY:{salary}\nDEPARTMENT:{department}'
+
+res= emp(name='ABC',salary=35000,department='IT',id=101)
+print(res)

@@ -1,0 +1,11 @@
+#1. identifier for values
+#2. has ability to identify different values
+#3. placeholder for memory location
+
+
+#rules to define variable nae
+#1. can contain alpha,digits,underscore 
+#2. can't contain space 
+#3. can't use symbols except underscore
+#4. can't use keywords as variable name
+#5. can't start with digit 
